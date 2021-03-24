@@ -2,4 +2,7 @@ module TelloObjCaffe
 
 go 1.15
 
-require gocv.io/x/gocv v0.21.0
+require (
+	gobot.io/x/gobot v1.15.0
+	gocv.io/x/gocv v0.21.0
+)
